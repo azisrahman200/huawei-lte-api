@@ -1,0 +1,209 @@
+proxies:
+- name: BUG-VIDIO nontontv
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-VIDIO 240-SECOND
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-VIDIO 14
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-VIDIO int-WC
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: quiz.int.vidio.com.id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: quiz.int.vidio.com.id4tr.jagoanvip.xyz
+- name: BUG-VIDIO sb
+  server: id4tr.jagoanvip.xyz
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: sb.scorecardresearch.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-VIDIO static-web
+  server: id4tr.jagoanvip.xyz
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: static-web.prod.vidiocdn.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-1VIDIO
+  server: quiz.vidio.com
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-2VIDIO
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-3VIDIO
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-4VIDIO
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-5Azis
+  server: nontontv.vidio.com
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-6Azis
+  server: img.email3.vidio.com
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-7Azis
+  server: img.email2.vidio.com
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-8Azis
+  server: img.email1.vidio.com
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-9Azis
+  server: quiz.staging.vidio.com
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: id4tr.jagoanvip.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id4tr.jagoanvip.xyz
+- name: BUG-SNI1
+  server: id4tr.jagoanvip.xyz
+  port: 443
+  type: trojan
+  password: vvip-azis12345
+  network: ws
+  sni: sb.scorecardresearch.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id4tr.jagoanvip.xyz
